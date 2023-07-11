@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #1A1A1D;
+    font-family: 'Space Grotesk';
+    color: white;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 1px;
+    font-size:x-large;
+    background: #6F2232;
+}
+nav ol li {
+    list-style-type: none;
+    display: inline-block;
+    justify-content:space-evenly;
+    padding-bottom: 10px;
+    margin-right: 60px;
+    color: #FBFEF9;
+}
+a {
+    text-decoration: none;
+    color: #FBFEF9;
+}
+

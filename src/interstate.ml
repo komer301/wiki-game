@@ -1,5 +1,12 @@
 open! Core
 
+
+let load_file input_file =
+  let connections = In_channel.read_lines (File_path.to_string input_file)
+  |> 
+;;
+
+
 let load_command =
   let open Command.Let_syntax in
   Command.basic
